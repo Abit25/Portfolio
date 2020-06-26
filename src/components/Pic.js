@@ -12,10 +12,10 @@ function Pic() {
       image,
       2,
       {
-        x: -100,
-        ease: Power3.easeOut(),
+        ease: Power3.easeIn(),
+        css: { height: "0%" },
       },
-      { css: { opacity: 1, x: 0 } }
+      { css: { opacity: 1, x: 0, height: "100%" } }
     );
   }, []);
   return (

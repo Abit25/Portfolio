@@ -34,7 +34,8 @@ function Header() {
 
 const headerStyle = {
   //background: "#1F1C2C" /* fallback for old browsers */,
-  background: "linear-gradient(to left, #141e30, #243b55)",
+  //   background: "linear-gradient(to left, #141e30, #243b55)",
+  background: "linear-gradient(to right, #232526, #000000",
   height: "100vh",
 };
 
