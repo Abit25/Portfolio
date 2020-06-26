@@ -1,0 +1,13 @@
+.pic {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  opacity: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .pic {
+    display: none;
+  }
+}
