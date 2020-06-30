@@ -38,6 +38,8 @@ function MyNavbar() {
 const navStyle = {
   borderRadius: "5px",
   top: "3vh",
+  position: "relative",
+  zIndex: "5",
 };
 
 const linkStyle = {

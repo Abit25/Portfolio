@@ -5,7 +5,8 @@ import ProjectTileRight from "./ProjectTileRight";
 
 function Body(props) {
   return (
-    <div className="outer">
+    <div style={{ overflowX: "hidden" }} className="outer">
+      <h2 className="heading">Projects</h2>
       <ProjectTileLeft />
       <ProjectTileRight />
       <ProjectTileLeft />

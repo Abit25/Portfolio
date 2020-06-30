@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@700&display=swap");
+
+.footer {
+  height: 40vh;
+  width: 100vw;
+  color: white;
+  background: linear-gradient(to bottom, #000000, #357a77);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Eczar", serif;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact {
+  font-size: 18px;
+}
+
+.text {
+  font-size: 28px;
+}
+
+@media screen and (max-width: 468px) {
+  .footer {
+    height: 20vh;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .contact {
+    font-size: 12px;
+  }
+}

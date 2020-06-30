@@ -31,13 +31,25 @@
 }
 
 @media screen and (max-width: 568px) {
+  .project-outer {
+    flex-direction: column;
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+
+  .text-container {
+    padding: 5px;
+  }
   .col-left {
-    width: 80vw;
+    width: 90vw;
     margin-top: 20px;
     margin-bottom: 10px;
   }
   .col-right {
-    width: 80vw;
+    width: 90vw;
     margin-top: 10px;
     margin-bottom: 10px;
   }
