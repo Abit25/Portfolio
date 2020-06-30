@@ -2,6 +2,7 @@ import React from "react";
 import MyNavbar from "./Navbar";
 import Pic from "./Pic";
 import Intro from "./Intro";
+import back from "../images/dark_back.jpg";
 import { Col, Row } from "react-bootstrap";
 
 function Header() {
@@ -35,7 +36,8 @@ function Header() {
 const headerStyle = {
   //background: "#1F1C2C" /* fallback for old browsers */,
   //   background: "linear-gradient(to left, #141e30, #243b55)",
-  background: "linear-gradient(to right, #232526, #000000",
+  // background: "linear-gradient(to right, #232526, #000000",
+  // backgroundImage: `url(${back})`,
   height: "100vh",
 };
 

@@ -1,14 +1,15 @@
 import React, { useRef, useEffect } from "react";
 import "./Body.css";
-import ProjectTile from "./ProjectTile";
+import ProjectTileLeft from "./ProjectTileLeft";
+import ProjectTileRight from "./ProjectTileRight";
 
 function Body(props) {
   return (
     <div className="outer">
-      <ProjectTile />
-      <ProjectTile />
-      <ProjectTile />
-      <ProjectTile />
+      <ProjectTileLeft />
+      <ProjectTileRight />
+      <ProjectTileLeft />
+      <ProjectTileRight />
     </div>
   );
 }
