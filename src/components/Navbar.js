@@ -8,7 +8,7 @@ function MyNavbar() {
   return (
     <div>
       <Container style={{ maxWidth: "100%" }}>
-        <Navbar style={navStyle} expand="lg" variant="light" bg="light">
+        <Navbar style={navStyle} expand="sm" variant="light" bg="light">
           <Container>
             <Navbar.Brand href="#">Abheet Shaju</Navbar.Brand>
           </Container>

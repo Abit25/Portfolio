@@ -13,7 +13,7 @@ function Intro() {
     TweenLite.from(text, 1.5, {
       opacity: 0,
       y: 200,
-      ease: Bounce.easeOut(),
+      ease: Power3.easeOut(),
     });
   }, []);
 
@@ -53,17 +53,23 @@ function Intro() {
         }}
       >
         <Col>
-          <img className="icon" src={fb}></img>
+          <a target={"_blank"} href={"https://www.facebook.com/abheets/"}>
+            <img className="icon" src={fb}></img>
+          </a>
         </Col>
         <Col>
-          <img className="icon" src={git}></img>
+          <a target={"_blank"} href={"https://github.com/Abit25"}>
+            <img className="icon" src={git}></img>
+          </a>
         </Col>
         <Col>
-          <img className="icon" src={link}></img>
+          <a
+            target={"_blank"}
+            href={"https://www.linkedin.com/in/abheet-shaju-b33051179/"}
+          >
+            <img className="icon" src={link}></img>
+          </a>
         </Col>
-        {/* <Col>
-          <img className="icon" src={fb}></img>
-        </Col> */}
       </Row>
     </div>
   );

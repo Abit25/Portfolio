@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.outer {
+  background: linear-gradient(to left, #232526, #000000);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  height: 100px;
+  border: 2px white solid;
+  padding: 50px;
+}

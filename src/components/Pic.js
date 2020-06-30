@@ -7,16 +7,17 @@ function Pic() {
   let image = useRef(null);
   //   let pic = useRef(null);
   useEffect(() => {
-    //   TweenLite.to(pic, 0, { css: { visibility: "visible" } });
-    TweenLite.fromTo(
-      image,
-      2,
-      {
-        ease: Power3.easeIn(),
-        css: { height: "0%" },
-      },
-      { css: { opacity: 1, x: 0, height: "100%" } }
-    );
+    setTimeout(() => {
+      TweenLite.fromTo(
+        image,
+        2,
+        {
+          ease: Power3.easeIn(),
+          css: { height: "0%" },
+        },
+        { css: { opacity: 1, x: 0, height: "100%" } }
+      );
+    }, 500);
   }, []);
   return (
     <div
