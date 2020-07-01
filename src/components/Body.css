@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100vw;
 }
 
 .heading {
@@ -19,4 +20,26 @@ h1 {
   height: 100px;
   border: 2px white solid;
   padding: 50px;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 540px) {
+  .row-1,
+  .row-2 {
+    flex-direction: column;
+    width: 100vw;
+  }
 }

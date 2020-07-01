@@ -1,1 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Zilla+Slab&display=swap");
+
+* {
+  /* background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important; */
+  /* max-width: 100vw; */
+}

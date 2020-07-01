@@ -4,7 +4,7 @@ import "./projecttile.css";
 function ProjectTile() {
   return (
     <div className="project-outer">
-      <div data-aos="fade-right" className="col-right"></div>
+      {/* <div data-aos="fade-right" className="col-right"></div> */}
       <div data-aos="fade-left" className="col-left">
         <div className="text-container">
           <h2>Project Title</h2>

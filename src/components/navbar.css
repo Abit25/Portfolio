@@ -1,8 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+.navbar-brand {
+  font-family: "Audiowide", cursive;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 540px) {
   .justify-content-end {
     text-align: center;
   }
-  .link {
+
+  .link-1,
+  .link-2,
+  .link-3 {
     width: 100%;
   }
 }

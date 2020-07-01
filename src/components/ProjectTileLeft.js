@@ -17,7 +17,7 @@ function ProjectTile() {
           </p>
         </div>
       </div>
-      <div data-aos="fade-left" className="col-right"></div>
+      {/* <div data-aos="fade-left" className="col-right"></div> */}
     </div>
   );
 }

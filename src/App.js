@@ -22,7 +22,7 @@ function App() {
           left: 0,
         }}
         height="300vh"
-        width="100%"
+        width="100vw"
         params={{
           background: { color: { value: "#000000" } },
           particles: {

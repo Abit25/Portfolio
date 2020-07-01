@@ -2,30 +2,60 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import { Link } from "react-scroll";
 import "./navbar.css";
 
 function MyNavbar() {
   return (
-    <div>
-      <Container style={{ maxWidth: "100%" }}>
-        <Navbar style={navStyle} expand="sm" variant="light" bg="light">
+    <div style={{ maxWidth: "100vw" }}>
+      <Container style={{ maxWidth: "80%" }}>
+        <Navbar
+          style={navStyle}
+          expand="sm"
+          variant="dark"
+          style={{ color: "white" }}
+        >
           <Container>
-            <Navbar.Brand href="#">Abheet Shaju</Navbar.Brand>
+            <Navbar.Brand href="#">
+              <span className="navbar-brand">Abheet .</span>
+            </Navbar.Brand>
           </Container>
           <Navbar.Toggle
-            style={{ position: "absolute", right: "10px", top: "10px" }}
+            style={{
+              position: "absolute",
+              right: "10px",
+              top: "10px",
+            }}
             aria-controls="basic-navbar-nav"
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" defaultActiveKey="/#home">
-              <Nav.Link className="link" href="/#home" style={linkStyle}>
+              <Nav.Link className="link-1" href="/#home" style={linkStyle}>
                 Home
               </Nav.Link>
-              <Nav.Link className="link" eventKey="link-1" style={linkStyle}>
-                Projects
+              <Nav.Link className="link-2" eventKey="link-1" style={linkStyle}>
+                <Link
+                  activeClass="active"
+                  to="project"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Projects
+                </Link>
               </Nav.Link>
-              <Nav.Link className="link" eventKey="link-2" style={linkStyle}>
-                About
+              <Nav.Link className="link-3" eventKey="link-2" style={linkStyle}>
+                <Link
+                  activeClass="active"
+                  to=""
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  About
+                </Link>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -43,7 +73,8 @@ const navStyle = {
 };
 
 const linkStyle = {
-  marginRight: "25%",
+  marginRight: "20%",
+  fontWeight: "bold",
 };
 
 export default MyNavbar;
