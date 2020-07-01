@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import profile from "../../public/dark-back.jpg";
+// import profile from "../images/profile.jpg";
 import { TweenLite, Power3 } from "gsap";
 import "./pic.css";
 
@@ -31,7 +31,7 @@ function Pic() {
         ref={(el) => {
           image = el;
         }}
-        src={profile}
+        src={process.env.PUBLIC_URL + "/profile.jpg"}
       />
     </div>
   );

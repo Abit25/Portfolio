@@ -33,7 +33,7 @@ function MyNavbar() {
               <Nav.Link className="link-1" href="/#home" style={linkStyle}>
                 Home
               </Nav.Link>
-              <Nav.Link className="link-2" eventKey="link-1" style={linkStyle}>
+              <Nav.Link className="link-2" style={linkStyle}>
                 <Link
                   activeClass="active"
                   to="project"
@@ -45,7 +45,7 @@ function MyNavbar() {
                   Projects
                 </Link>
               </Nav.Link>
-              <Nav.Link className="link-3" eventKey="link-2" style={linkStyle}>
+              <Nav.Link className="link-3" style={linkStyle}>
                 <Link
                   activeClass="active"
                   to="about"

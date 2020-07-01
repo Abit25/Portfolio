@@ -49,7 +49,7 @@ function Intro() {
       </Row>
       <Row
         style={{
-          marginTop: "4vh",
+          marginTop: "5vh",
         }}
       >
         <Col>
