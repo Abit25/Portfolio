@@ -1,11 +1,12 @@
 import React, { useRef, useEffect } from "react";
-// import profile from "../images/profile.jpg";
-import { TweenLite, Power3 } from "gsap";
+import profile from "../images/profile.jpg";
+import { TweenLite, Power3, gsap } from "gsap";
 import "./pic.css";
 
 function Pic() {
   let image = useRef(null);
-  //   let pic = useRef(null);
+  gsap.registerPlugin(TweenLite);
+  gsap.registerPlugin(Power3);
   useEffect(() => {
     setTimeout(() => {
       TweenLite.fromTo(
@@ -31,7 +32,7 @@ function Pic() {
         ref={(el) => {
           image = el;
         }}
-        src={process.env.PUBLIC_URL + "/profile.jpg"}
+        src={profile}
       />
     </div>
   );

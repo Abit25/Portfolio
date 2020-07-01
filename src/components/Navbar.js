@@ -52,7 +52,7 @@ function MyNavbar() {
                   spy={true}
                   smooth={true}
                   offset={-70}
-                  duration={1000}
+                  duration={500}
                 >
                   About
                 </Link>

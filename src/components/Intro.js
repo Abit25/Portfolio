@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { TweenLite, Power3, Bounce } from "gsap";
+import { TweenLite, Power3, Bounce, gsap } from "gsap";
 import "./introText.css";
 import fb from "../images/fb.png";
 import git from "../images/git.svg";
@@ -8,6 +8,8 @@ import { Col, Row } from "react-bootstrap";
 
 function Intro() {
   let text = useRef(null);
+  gsap.registerPlugin(TweenLite);
+  gsap.registerPlugin(Power3);
 
   useEffect(() => {
     TweenLite.from(text, 1.5, {
