@@ -48,11 +48,11 @@ function MyNavbar() {
               <Nav.Link className="link-3" eventKey="link-2" style={linkStyle}>
                 <Link
                   activeClass="active"
-                  to=""
+                  to="about"
                   spy={true}
                   smooth={true}
                   offset={-70}
-                  duration={500}
+                  duration={1000}
                 >
                   About
                 </Link>
