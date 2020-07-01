@@ -11,6 +11,10 @@
   text-align: center;
 }
 
+.iphone {
+  margin-top: 4vh;
+}
+
 .icon {
   height: 45px;
   width: 45px;
@@ -19,6 +23,13 @@
   border-radius: 100%;
   text-align: center;
   border: 2px solid white;
+}
+
+@media screen and (max-width: 568px) and (min-height: 200px) {
+  .iphone {
+    margin-top: 15vh;
+    /* border: 2px yellow solid; */
+  }
 }
 
 @media screen and (max-width: 540px) {

@@ -13,8 +13,8 @@
   margin: 50px;
   border-radius: 10px;
   background-color: #0b0c10;
-  color: #66fcf1;
-  filter: brightness(70%);
+  color: #ffffff;
+  /* filter: brightness(70%); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,15 +53,19 @@
   .proj-title {
     font-size: 18px;
     font-style: italic;
+    font-weight: bold;
   }
 
   .text-container {
     padding: 5px;
+    width: 90%;
+    /* text-align: center; */
   }
   .col-left {
     width: 90vw;
     margin-top: 20px;
     margin-bottom: 10px;
+    /* border: 2px yellow solid; */
   }
   .col-right {
     width: 90vw;

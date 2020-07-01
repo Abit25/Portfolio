@@ -20,14 +20,14 @@ function MyNavbar() {
               <span className="navbar-brand">Abheet .</span>
             </Navbar.Brand>
           </Container>
-          <Navbar.Toggle
+          {/* <Navbar.Toggle
             style={{
               position: "absolute",
               right: "10px",
               top: "10px",
             }}
             aria-controls="basic-navbar-nav"
-          />
+          /> */}
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" defaultActiveKey="/#home">
               <Nav.Link className="link-1" href="/#home" style={linkStyle}>

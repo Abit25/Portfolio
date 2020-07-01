@@ -49,11 +49,7 @@ function Intro() {
           </div>
         </Col>
       </Row>
-      <Row
-        style={{
-          marginTop: "5vh",
-        }}
-      >
+      <Row className="iphone">
         <Col>
           <a target={"_blank"} href={"https://www.facebook.com/abheets/"}>
             <img className="icon" src={fb}></img>

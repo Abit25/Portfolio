@@ -35,7 +35,7 @@ function App() {
               },
             },
             number: {
-              value: 400,
+              value: 200,
             },
             size: {
               value: 2,
