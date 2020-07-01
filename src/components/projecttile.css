@@ -50,6 +50,11 @@
     font-size: 14px;
   }
 
+  .proj-title {
+    font-size: 18px;
+    font-style: italic;
+  }
+
   .text-container {
     padding: 5px;
   }

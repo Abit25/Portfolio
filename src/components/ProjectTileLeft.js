@@ -6,7 +6,7 @@ function ProjectTile(props) {
     <div className="project-outer">
       <div data-aos="fade-right" className="col-left">
         <div className="text-container">
-          <h2>{props.title}</h2>
+          <h2 className={"proj-title"}>{props.title}</h2>
           <p>{props.content}</p>
         </div>
       </div>
