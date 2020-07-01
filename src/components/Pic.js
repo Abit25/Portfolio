@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import profile from "../images/profile.jpg";
+import profile from "./dark-back.jpg";
 import { TweenLite, Power3 } from "gsap";
 import "./pic.css";
 
