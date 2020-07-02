@@ -12,7 +12,7 @@ function Body(props) {
   var content1 =
     "The recommendation engine is based on Collaberative Filtering to find movies that user might like based on what other users watch. This model uses Item-Item similarity to find candidate movies. This project is under development right now.";
   var content2 =
-    "Learning from the web might be tedious due to the vast number of resources available to learn from and might lead to wastage of time. This engine recommends resources based on the user's aptitude so that it's understandable to him and can hence catalyses his learning process. ";
+    "Learning from the web might be tedious due to the vast number of resources available to learn from and might lead to wastage of time. This engine recommends resources based on the user's aptitude so that it's understandable to him and can hence catalyse his learning process. ";
   var content3 =
     "A cross platform app built using React Native to track the user’s location in real time to create tracks. A fitness app like Nike Running to track the user’s workouts. My first attempt at using React Native to build a cross-platform app.";
   var content4 =
